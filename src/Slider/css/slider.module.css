@@ -1,0 +1,11 @@
+.sliderWrapper {
+    width: 100%;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 50px);
+}
+
+.img {
+    grid-column: 1/end;
+}

@@ -1,0 +1,101 @@
+.headerWrapper {
+    display: grid;
+    grid-template-columns: 54px 174px auto 174px 160px;
+    grid-template-rows: 50px 80px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.opacityText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    color: #969696;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.phoneCoolBack {
+    text-decoration: none;
+    grid-column: 4/5;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.coolBack {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    width: 156px;
+    height: 36px;
+    border: 2px solid #292929;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+
+    grid-column: 5/6;
+    grid-row: 2/3;
+    margin-top: -18px;
+}
+
+.logoHeader {
+    grid-column: 1/2;
+    margin-top: 26px;
+}
+
+.titleLogo {
+    grid-column: 2/3;
+    margin-top: 30px;
+}
+
+.phoneText {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.mainMenu {
+    width: 100%;
+    margin: auto;
+    background: #ffcc00;
+    margin-top: -30px;
+    position: relative;
+    z-index: 10;
+}
+
+.mainMenu ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.mainMenu ul li {
+    width: 100%;
+    height: 100%;
+}
+
+.mainMenu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
