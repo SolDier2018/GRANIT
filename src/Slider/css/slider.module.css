@@ -1,11 +1,67 @@
+.sliderSection {
+    background-image: url(../img/slide1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .sliderWrapper {
     width: 100%;
     margin-top: -30px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(11, 50px);
 }
 
 .img {
     grid-column: 1/end;
+}
+
+.sliderWrapper h1 {
+    grid-column: 1 / 4;
+    grid-row: 4/5;
+
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.descriptions {
+    grid-column: 1/4;
+    grid-row: 5/7;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.moreShipping {
+    grid-column: 1/2;
+    grid-row: 7/8;
+
+    background: #ffcc00;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #0d0d0d;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.catalogLink {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    align-self: center;
+    justify-self: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.catalogLink a {
+    color: #ffffff;
 }
