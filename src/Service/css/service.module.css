@@ -1,0 +1,50 @@
+.sevice {
+    background: #f4f4f4;
+}
+
+.serviceWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 78px auto;
+    grid-column-gap: 20px;
+    align-content: end;
+
+    padding: 74px 0px 84px 0px;
+}
+
+.serviceWrapper h2 {
+    grid-column: 2/3;
+    justify-self: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.serviceItem {
+    display: grid;
+    grid-template-rows: 130px 70px;
+    grid-row: 2/3;
+    border: 2px solid #ffffff;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.serviceItem img {
+    grid-row: 1/2;
+    align-self: end;
+    justify-self: center;
+}
+
+.serviceItem p {
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #292929;
+    font-weight: bold;
+}

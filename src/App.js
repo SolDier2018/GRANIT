@@ -4,6 +4,8 @@ import {Slider} from './Slider';
 import {Available} from './Available';
 import {Advantage} from './Advantage';
 import {PopularProducts} from './PopularProducts';
+import {Service} from './Service';
+import {Contacts} from './Contacts';
 
 import './common.css';
 
@@ -18,6 +20,8 @@ function App() {
           <Available/>
           <Advantage/>
           <PopularProducts/>
+          <Service/>
+          <Contacts/>
       </main>
       <footer>
 
