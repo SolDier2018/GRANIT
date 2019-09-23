@@ -6,6 +6,7 @@ import {Advantage} from './Advantage';
 import {PopularProducts} from './PopularProducts';
 import {Service} from './Service';
 import {Contacts} from './Contacts';
+import {Footer} from './Footer';
 
 import './common.css';
 
@@ -24,7 +25,7 @@ function App() {
           <Contacts/>
       </main>
       <footer>
-
+          <Footer />
       </footer>
     </Fragment>
   );

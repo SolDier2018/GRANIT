@@ -1,0 +1,97 @@
+.contacts {
+    background-image: url(../img/backgroundContacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactsWrapper {
+    display: grid;
+    grid-template-columns: repeat(16, 60px);
+    grid-template-rows: repeat(6, 60px);
+
+    padding: 84px 0px 84px 0px;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: 60px 28px auto;
+    grid-template-rows: repeat(6, 60px);
+    grid-column: 11/end;
+    grid-row: 1/end;
+
+    background: #ffffff;
+    color: #292929;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: #292929;
+    display: block;
+}
+
+.contactInfo img {
+    width: auto;
+    height: 12px;
+}
+
+.title {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    align-self: start;
+
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.iconPhone {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.phone {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.phone a {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #292929;
+    font-weight: bold;
+}
+
+.iconMap {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.adress {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    align-self: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.iconMail {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.mailLink {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    align-self: center;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.iconPhone, .iconMap, .iconMail {
+    align-self: center;
+    padding: 5px;
+}
